@@ -1,0 +1,1006 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+
+    background-color: rgb(68, 70, 70);
+
+}
+
+.log{
+    background-image: url(backroundlogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+.hh{
+    padding-left: 40%;
+    height: 100%;
+}
+.wrapper {
+    width: 420px;
+  
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+    
+
+}   
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box
+{   position: relative;
+    width: 100%;
+    height: 50px;
+  
+    margin: 30px 0;
+}
+.input-box input
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+
+
+}
+.input-box input::placeholder 
+{
+    color:#fff;
+
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remeber-forget
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+
+
+}
+.remeber-forget label input
+{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remeber-forget a{
+    text-decoration: none;
+    color: #fff;
+}
+.remeber-forget a:hover
+{
+    text-decoration: underline;
+}
+.wrapper .btn
+{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius:40px ;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register-link
+{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0  15px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover
+{
+    text-decoration: underline;
+
+}
+
+
+.bbbb{
+    background-image: url(aboutbg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+   
+    background-size: cover;
+    
+}
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 0px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+
+}
+.logo{
+    width: 350px;
+    height: 80px;
+    cursor:pointer;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase ;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width:0%;
+    background: #c6330b;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.front{
+    width: 100%;
+    height: 80%;
+    margin-top:4%;
+    align-items: center;
+    display: block;
+    background-image: url(olympic-flag-thubmnail.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+.f1{
+    display: flex;
+    background-image: url(event\ bg.jpg);
+    height: 10%;
+}
+.B1{
+    padding-top: 100%;
+
+}
+.front h1 {
+    
+    color: #450208;
+    font-size :35px;
+   padding-left: 40%;
+   padding-top: 24%;
+   
+
+ 
+
+}
+.front h5{
+    font-size :12px;;
+    color: #000;
+   padding-left: 40%;
+   padding-right: 20%;
+}
+
+
+
+.but{
+    padding-bottom: 30%;
+    padding-left: 40%;
+}
+.but button {
+    border-radius: 20px;
+    background-color: #4b8509;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .but button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .but button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .but button:hover span {
+    padding-right: 25px;
+  }
+  
+  .but button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+.ad{
+    padding-left: 40%;
+}
+.b1{
+    padding-left: 34%;
+
+}
+.b1 h1{
+    padding-top: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    color: #fff;
+    font-weight:bolder;
+    
+
+
+}
+.channle h1{
+
+    background-color: #323131;
+    color: #f7f5f5;
+    padding-top: 4%;
+    padding-left: 38%;
+    
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* { box-sizing: border-box; }
+
+body,
+html { overflow-x: hidden; }
+
+.bar {
+  position: absolute;
+  top: 40;
+  left: 0;
+
+  width: 100%;
+  padding: 15px 0;
+
+  background-color: #4b4f51;
+  color: white;
+
+  font-family: Gelasio;
+  font-size: 18px;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+}
+
+/* Create the animation */
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+
+
+
+.news{
+  padding-top: 2%;
+  padding: 2%;
+  padding-left: 8%;
+}
+.card{
+  width:400px;
+  height:400px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 4%;
+  margin-bottom: 0.2rem;
+  padding-top: 5%;
+  cursor: pointer;
+  max-width: 100px 100px;
+  background-image: url(olympic-flag-thubmnail.webp);
+  
+  border-image-outset: 5%;
+  background-position: center;
+  background-size: cover;
+  padding-left: 10%;
+  text-align: center;
+  color: #f7f5f5;
+  transition: transform .3s;
+
+}
+.card h3{
+    padding-top: 80%;
+    padding-left: 0%;
+   padding-right: 30%;
+}
+
+.card1{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card2{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card3{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card4{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card5{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+
+}
+.card6{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width: thick;
+    border-color: #323030;
+
+}
+.card:hover{
+  transform: scale(1.1);
+    color:black;
+}
+    
+
+.card3:hover{
+    color:black;
+    
+}
+.card4:hover{
+   
+    color:black;
+}
+.card5:hover{
+    
+    color:black;
+}
+.card6:hover{
+    
+    color:black;
+}
+.card7{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+    width: 250px;
+    height: 250px;
+
+}
+.card8{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+    width: 250px;
+    height: 250px;
+
+}
+.card9{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+    width: 250px;
+    height: 250px;
+
+}
+.card10{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+    width: 250px;
+    height: 250px;
+
+}
+.card11{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width:thick;
+    border-color: #323030;
+    width: 250px;
+    height: 250px;
+
+}
+.card12{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width: thick;
+    border-color: #323030;
+    width: 250px;
+    height: 250px;
+    
+
+}
+.card12 h3{
+    padding-top: 80%;
+    padding-left: 0%;
+   padding-right: 90%;
+}
+.n1{
+    margin-top:0%;
+    padding-left: 7%;
+}
+.card9:hover{
+    color:black;
+    
+}
+.card10:hover{
+   
+    color:black;
+}
+.card11:hover{
+    
+    color:black;
+}
+.card12:hover{
+    
+    color:black;
+}
+.card13{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width: thick;
+    border-color: #323030;
+    width: 300px;
+    height: 500px;
+    transition: transform .3s;
+
+}
+.card14{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width: thick;
+    border-color: #323030;
+    width: 300px;
+    height: 500px;
+    transition: transform .3s;
+
+}
+.card15{
+    background-image: url(olympic-flag-thubmnail.webp);
+    border-style:solid;
+    border-width: thick;
+    border-color: #323030;
+    width: 300px;
+    height: 500px;
+    transition: transform .3s;
+    
+
+}
+.card15:hover{
+    transform: none;
+}
+.card13:hover{
+    transform: none;
+}
+.card14:hover{
+    transform: none;
+}
+
+
+.upevent{
+    padding-top: 7%;
+    padding-bottom: 10%;
+    padding-left: 13%;
+    padding-right: 12.4%;
+}
+
+
+:root {
+    --page-margin: min(2rem, 5vw);
+    color: #444;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+    
+    & > * {
+      grid-column: center;
+    }
+  }
+  
+  .cards-wrapper {
+    grid-column: center-start / -1;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-right: var(--page-margin);
+    
+    .cardi {
+      display: grid;
+      place-content: center;
+      background-color: #d0f0ee;
+      color: #15928A;
+      font-size: 1.5rem;
+      height: 25rem;
+      min-width: 16rem;
+    }
+  }
+
+.ec1{
+    padding-left: 20%;
+    padding-bottom: 20%;
+}
+
+
+
+.demo{
+   
+    font-size:3em;
+    float:left;
+    text-align:center;
+    padding-left: 34%;
+    padding-bottom: 0%;
+  }
+  
+  
+  
+  .rainbow{
+          animation: rainbow 2.5s linear;
+          animation-iteration-count: infinite;
+          
+  }
+  
+ 
+  
+  @keyframes rainbow{
+          100%,0%{
+              color: rgb(255,0,0);
+          }
+          8%{
+              color: rgb(255,127,0);
+          }
+          16%{
+              color: rgb(255,255,0);
+          }
+          25%{
+              color: rgb(127,255,0);
+          }
+          33%{
+              color: rgb(0,255,0);
+          }
+          41%{
+              color: rgb(0,255,127);
+          }
+          50%{
+              color: rgb(0,255,255);
+          }
+          58%{
+              color: rgb(0,127,255);
+          }
+          66%{
+              color: rgb(0,0,255);
+          }
+          75%{
+              color: rgb(127,0,255);
+          }
+          83%{
+              color: rgb(255,0,255);
+          }
+          91%{
+              color: rgb(255,0,127);
+          }
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
+.ef1{
+    padding-top: 0%;
+}
+.footer{
+    background-color: #000;
+    
+    color:white;
+}
+.about {
+    padding: 1rem;
+    text-align: center;
+}
+
+.about>h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.about-sub {
+    display: flex;
+    max-width: 1200px;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.about-sub>video {
+    max-height: 350px;
+    width: 400px;
+    max-width: 100%;
+    animation: animateimage 1s linear;
+}
+
+@keyframes animatevideo {
+    from {
+        transform: translateY(-15px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.about-sub .sub-sub-about {
+    padding: 2rem;
+    animation: animatetext 0.5s linear;
+}
+
+@keyframes animatetext {
+    from {
+        transform: translateY(15px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.about-sub .sub-sub-about p {
+    font-size: 22px;
+}
+
+.about-sub .gradient-btn {
+    width: 120px;
+    margin-top: 5px;
+    height: 40px;
+    font-size: 15px;
+
+}
+
+th {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-sub {
+        flex-direction: column;
+    }
+
+    .about-sub:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+}
+
+.about-companies {
+    max-width: 800px;
+    width: 90%;
+    background-color: #808080;
+    backdrop-filter: blur(8px) saturate(50.2%);
+    padding: 1rem .5rem;
+    margin: 1rem auto;
+    border-radius: 15px;
+}
+
+.about-companies h1 {
+    font-size: 2rem;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.about-companies h1 span {
+    color: #000;
+}
+
+.about-companies .company-logos {
+    display: flex;
+    justify-content: space-evenly;
+    color: #666;
+    font-size: 2rem;
+    transition: .3s ease-in;
+    max-width: 75%;
+    margin: 0pc auto;
+}
+
+a,
+
+
+
+
+
+
+
+.infom{
+    background-image: url(cantactinfobg.jpeg);
+    width: 300px;
+    height:340px;
+    border-radius: 10%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contac h1{
+    color: #f4f3f6;
+
+}
+.contac p{
+    color: #f4f3f6;
+}
+.inf{
+    padding-left: 0%;
+    padding-top: 0%;
+    
+}
+.in input{
+    width: 300px;
+    height:70px;
+    border-radius: 10%;
+
+}
+.row3{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 20%;
+   background-image: url(bd.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.col3{
+    flex-basis: 50%;
+}
+.col3 h1{
+    color: #0c0c0c;
+  
+    
+}
+.col3 p{
+    color: #111010;
+    font-size: 11px;
+    line-height: 15px;
+    width: 500px;
+}
+.input1 h5{
+    color: #0c0c0c;
+}
+.submit button{
+    background-color: #000;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.call{
+    padding-top: 20%;
+    padding-left: 30%;
+}
+.call h1 {
+    color: #f4f3f6;
+}
+.call h3{
+    color:pink;
+    padding-left: 13%;
+}
+.gh{
+    padding-left: 23%;
+ color: #15928A;
+ background-color: darkolivegreen;
+ width:60%;
+ border-radius: 5%;
+}
+.gh button{
+    background-color: #20f876;
+    border-radius: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.submit a{
+    color: #f4f3f6;
+}
+
+.logi{
+    border: #4139e8;
+}
+
+
+
+
+
+
+
+
+
+
+.aboutus{
+    width:50%;
+}
+.aboutus h1{
+    color: white;
+}
+.aboutus p{
+    color: #fff;
+
+}
+.aboutpad{
+    padding-left: 5%;
+    padding-top: 17%;
+}
+.aboutus button{
+    width: 180px;
+    color: #4139e8;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #f7f5f5;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+.aboutus button a{
+    color: #400fe1;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+u {
+    text-decoration: none;
+    color:white;
+}
+
+.about-companies .company-logos .fa:hover {
+    color: #000;
+}
+
+@media screen and (max-width:750px) {
+    .about-companies h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-companies h1 {
+        font-size: 1.2rem;
+    }
+
+    .about-companies .company-logos {
+        font-size: 1rem;
+    }
+}
+
+.subscribe {
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+.subscribe-box {
+    padding: 10px;
+    
+}
+
+.subscribe-box input {
+    max-width: 300px;
+    width: 65%;
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.subscribe-box button {
+    border: none;
+    background-color: #808080;
+    height: 40px;
+    padding: 0 1rem;
+
+   -webkit-text-fill-color: #000;
+    border-radius: 10px;
+    transition: transform .3s;
+}
+.subscribe-box button:hover{
+    transform: scale(1.1);
+}
+
+
+.subscribe-box ::placeholder {
+    color: rgb(57, 54, 54);
+
+}
